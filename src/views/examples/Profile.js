@@ -34,7 +34,7 @@ class Profile extends React.Component {
   render() {
     return (
       <>
-        {/* <DemoNavbar /> */}
+        <DemoNavbar />
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
@@ -156,12 +156,12 @@ class Profile extends React.Component {
                           html,css,javascript ,bootstap and react, 
                           I can make you a good looking will functional websites with proficiency 
                         </p>
-                        <a href="#pablo" onClick={e => {
+                        {/* <a href="#pablo" onClick={e => {
                           e.preventDefault()
                           location.href('')
                           }}>
                           Show more
-                        </a>
+                        </a> */}
                       </Col>
                     </Row>
                   </div>
